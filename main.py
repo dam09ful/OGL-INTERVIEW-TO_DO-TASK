@@ -64,4 +64,6 @@ completed_task = driver.find_element(By.ID, 'list-heading').text
 
 print(f"COMPLETED: {completed_task}")
 
+driver.close()
+
 
